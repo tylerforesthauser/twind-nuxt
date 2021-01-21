@@ -4,7 +4,7 @@
       tw(({ tw }) => {
         const styles = {
           ':global': {
-            html: apply('bg-dark-surface text-dark-onSurfacePrimary'),
+            html: apply('bg-gray-900 text-white'),
           },
         };
         return styles;

@@ -5,8 +5,8 @@
     :class="
       tw([
         'no-underline inline-block uppercase rounded font-medium text(sm base) shadow(hover:md) px-4 py-2',
-        variant === 'primary' && 'text-white bg-primary(base hover:light)',
-        variant === 'secondary' && 'text-nuxt-gray bg-gray(200 hover:300)',
+        variant === 'primary' && 'text-black bg-green(500 hover:600)',
+        variant === 'secondary' && 'text-gray-900 bg-gray(200 hover:300)',
       ])
     "
   >
@@ -23,8 +23,8 @@
     :class="
       tw([
         'no-underline inline-block uppercase rounded font-medium text(sm base) shadow(hover:md) px-4 py-2',
-        variant === 'primary' && 'text-white bg-primary(base hover:light)',
-        variant === 'secondary' && 'text-nuxt-gray bg-gray(200 hover:300)',
+        variant === 'primary' && 'text-black bg-green(500 hover:600)',
+        variant === 'secondary' && 'text-gray-900 bg-gray(200 hover:300)',
       ])
     "
   >

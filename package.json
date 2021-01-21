@@ -1,7 +1,7 @@
 {
   "name": "twind-nuxtjs-static-deployment",
   "version": "1.0.0",
-  "description": "Using Twind with Nuxt.js",
+  "description": "Use twind with Nuxt.js",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -18,10 +18,10 @@
     "twind": "0.13.0"
   },
   "keywords": [
-    "twind",
-    "tailwind",
+    "vue",
     "css-in-js",
+    "tailwind",
     "nuxtjs",
-    "static"
+    "twind"
   ]
 }
