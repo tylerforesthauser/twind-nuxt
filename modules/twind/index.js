@@ -23,6 +23,7 @@ module.exports = function (moduleOptions) {
 
     nuxt.hook("vue-renderer:ssr:templateParams", (params, ssrContext) => {
       params.HEAD += getStyleTag(ssrContext.$twSheet);
+      ssrContext.$twSheet.disable();
     });
   }
 

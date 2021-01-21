@@ -1,7 +1,7 @@
 {
   "name": "twind-nuxtjs-static-deployment",
   "version": "1.0.0",
-  "description": "Use twind with Nuxt.js",
+  "description": "Use twind with Nuxt.js\n\nhttps://twind-nuxt.vercel.app/",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -16,5 +16,11 @@
     "reqlim": "^0.0.0",
     "twind": "0.13.0"
   },
-  "keywords": ["vue", "css-in-js", "tailwind", "nuxtjs", "twind"]
+  "keywords": [
+    "vue",
+    "css-in-js",
+    "nuxtjs",
+    "twind",
+    "tailwindcss"
+  ]
 }
