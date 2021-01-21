@@ -12,16 +12,9 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "@nuxt/http": "0.6.2",
     "nuxt": "2.14.12",
     "reqlim": "^0.0.0",
     "twind": "0.13.0"
   },
-  "keywords": [
-    "vue",
-    "css-in-js",
-    "tailwind",
-    "nuxtjs",
-    "twind"
-  ]
+  "keywords": ["vue", "css-in-js", "tailwind", "nuxtjs", "twind"]
 }

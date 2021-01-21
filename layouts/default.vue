@@ -1,7 +1,7 @@
 <template>
   <div
     :class="
-      tw(({ tw }) => {
+      tw(() => {
         const styles = {
           ':global': {
             html: apply('bg-gray-900 text-white'),
