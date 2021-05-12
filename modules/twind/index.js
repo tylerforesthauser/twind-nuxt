@@ -8,6 +8,8 @@ module.exports = function (moduleOptions) {
   const defaults = {
     preflight: true,
     theme: {},
+    plugins: {},
+    variants: {},
     darkMode: "media",
     mode: "silent",
     ssr: true

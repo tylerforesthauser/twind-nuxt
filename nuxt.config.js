@@ -43,6 +43,8 @@ export default {
   twind: {
     preflight: true,
     theme: {},
+    plugins: {},
+    variants: {},
     darkMode: "class",
     ssr: true
   },

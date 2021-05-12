@@ -2,7 +2,10 @@
   "name": "twind-nuxtjs-static-deployment",
   "version": "1.0.0",
   "description": "Use twind with Nuxt.js\n\nhttps://twind-nuxt.vercel.app/",
-  "author": "Nuxt.js Team",
+  "author": {
+    "name": "Tyler Forest-Hauser",
+    "email": "tyler@foresthauser.com"
+  },
   "private": true,
   "scripts": {
     "dev": "MINIMAL=1 CSB=1 nuxt",
@@ -12,15 +15,9 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "nuxt": "2.14.12",
+    "nuxt": "2.15.6",
     "reqlim": "^0.0.0",
-    "twind": "0.13.0"
+    "twind": "0.16.14"
   },
-  "keywords": [
-    "vue",
-    "css-in-js",
-    "nuxtjs",
-    "twind",
-    "tailwindcss"
-  ]
+  "keywords": ["vue", "css-in-js", "nuxtjs", "twind", "tailwindcss"]
 }
